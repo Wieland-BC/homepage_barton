@@ -1,0 +1,79 @@
+:root{--cm-templates-bp-tablet:1279}
+#content_wrapper h1,#content_wrapper h2,#content_wrapper h3,#content_wrapper h4,#content_wrapper h5,#content_wrapper h6{margin:0 0 .7em 0}
+#content_wrapper p,#content_wrapper code,#content_wrapper pre,#content_wrapper kbd{margin:0 0 1em 0}
+#content_wrapper li ul,#content_wrapper li ol{margin:0 1em}
+#content_wrapper ul,#content_wrapper ol{margin:0 1em 1em 1em;padding:0}
+#content_wrapper dl{margin:0 0 1em 0}
+#content_wrapper dd{margin-left:1em}
+a{outline:0}
+.cm-template-navigation--position-fixed{position:fixed !important;top:0}
+.cm-template-navigation--position-fixed+#content_wrapper{padding-top:80px}
+html,body{margin:0;padding:0}
+#page_wrapper .clear{clear:both}
+.cm-template-keyvisual__media,.cm-slides-addon{background-size:cover;background-repeat:no-repeat}
+#keyvisual.cm-templates-kv-deprecated-px,#keyvisual.cm-templates-kv-deprecated-px .cm-slides-addon{background-position:center;background-size:cover}
+#content_main ul,#content_main ol{padding-left:20px;overflow:unset}
+#navigation_background{position:relative;top:0;left:0;width:98%;z-index:800;padding:0 1%}
+@media only screen and (min-width:980px){#page_wrapper.scroll3 #navigation_background{position:fixed}
+}
+#navigation_wrapper{max-width:1160px;margin:auto;padding:0}
+#cm_navigation{display:inline-block;vertical-align:middle;text-align:right;width:970px}
+#header_wrapper{width:100%;min-height:60px;line-height:60px;text-align:center;top:0;z-index:10;overflow:hidden}
+#title_wrapper{display:inline-block;vertical-align:middle}
+#title_wrapper br{display:none}
+#title,#title_separator_normal,#title_separator_mobile,#subtitle{display:inline-block;vertical-align:middle;margin:auto;width:auto;height:auto}
+#title_separator_normal{margin:0 .7em}
+#keyvisual,.cm-slides-addon{height:525px;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover}
+#content_wrapper{margin:auto;max-width:1160px;z-index:5;padding:0 20px}
+@media only screen and (min-width:980px){#page_wrapper.scroll3 #content_wrapper{margin-top:115px}
+}
+#content_sidebar{float:right;width:210px;padding:70px 0 75px 0;margin-left:75px}
+#footer{text-align:center;padding:45px 20px}
+#title_wrapper p#big_title{font-size:4.74vw;letter-spacing:-0.13em;line-height:1em;margin-bottom:70px}
+#logo{position:relative;width:190px;height:115px;border:0;display:inline-block;vertical-align:middle}
+.cm-templates-heading__title{-ms-word-break:normal;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto;word-wrap:break-word}
+.cm-templates-heading__subtitle{-ms-word-break:normal;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto;word-wrap:break-word}
+#navigation_wrapper #nav-mobile-heading{display:none;font-weight:bold;padding-bottom:20px;padding-top:20px;vertical-align:middle}
+#navigation_wrapper #nav-mobile-heading a{display:inline-block;padding:0 20px;text-decoration:none}
+#page_wrapper #cm_navigation a{text-decoration:none;text-align:left;display:block}
+#page_wrapper #cm_navigation a:hover{text-decoration:none}
+#cm_navigation>ul{display:table-cell;position:relative;vertical-align:middle;list-style-type:none;margin:0;padding:0;width:970px}
+#cm_navigation ul>li{display:inline-block;margin:0;margin-left:30px;margin-top:5px;margin-bottom:5px;position:relative;padding:10px;white-space:nowrap}
+#cm_navigation>ul>li:last-child{margin-right:0}
+#cm_navigation ul>li>a{padding:0}
+#cm_navigation>ul>li>ul>li{padding:0;white-space:nowrap;margin:0 10px 0 0}
+#cm_navigation>ul>li>ul>li>a{padding:10px;text-transform:none}
+#cm_navigation>ul>li>ul{display:none;z-index:10}
+#cm_navigation>ul>li:hover>ul{display:block}
+#cm_navigation>ul>li>ul{list-style-type:none;text-align:left;margin:0;padding:0;position:absolute;top:100%;left:0}
+#cm_navigation>ul>li>ul>li{display:block;margin-top:2px;line-height:0}
+#cm_navigation>ul>li>ul>li.cm_has_subnavigation:hover,#cm_navigation>ul>li>ul>li.cm_has_subnavigation.subopen{padding-bottom:0}
+#cm_navigation>ul>li>ul>li>ul>li{padding:0;line-height:0;white-space:nowrap;margin:0 10px 0 0}
+#cm_navigation>ul>li>ul>li>ul>li>a{padding:10px;text-transform:none}
+#cm_navigation>ul>li>ul>li>ul{display:none;z-index:10;overflow:hidden}
+#cm_navigation>ul>li>ul>li:hover>ul,#cm_navigation>ul>li>ul>li.subopen>ul{display:block}
+#cm_navigation>ul>li>ul>li>ul{list-style-type:none;text-align:left;margin:0;padding:0;padding-left:2px;position:absolute;top:0;left:100%}
+#cm_navigation>ul>li>ul>li>ul>li{display:block;margin-top:2px}
+#cm_navigation>ul>li>ul>li>ul>li:first-child{margin-top:0}
+#content_main{padding:70px 0 75px 0;width:875px;float:left}
+#content_main form ul{list-style:none;padding-left:0}
+#content_main form ul li.w_td_label{margin-top:10px}
+#content_sidebar>div{margin-bottom:20px}
+#content_sidebar h1{margin:0 0 20px 0}
+#content_sidebar p{margin:0 0 20px 0}
+#footer_wrapper a{margin:0 25px}
+#footer_wrapper .content_wrapper{padding-top:0}
+.cm-templates-empty{display:none}
+select option{color:#333}
+@media only screen and (max-width:767px) and (orientation :portrait){.cm-templates-heading__title,.cm-templates-heading__title span{font-size:7vw !important}
+.cm-templates-heading__subtitle,.cm-templates-heading__subtitle span{font-size:5vw !important}
+}
+@media only screen and (max-width:767px) and (orientation :landscape){.cm-templates-heading__title,.cm-templates-heading__title span{font-size:6vw !important}
+.cm-templates-heading__subtitle,.cm-templates-heading__subtitle span{font-size:4vw !important}
+}
+@media only screen and (min-width:768px) and (max-width:1280px) and (orientation :portrait){.cm-templates-heading__title,.cm-templates-heading__title span{font-size:5vw !important}
+.cm-templates-heading__subtitle,.cm-templates-heading__subtitle span{font-size:3vw !important}
+}
+@media only screen and (min-width:768px) and (max-width:1280px) and (orientation :landscape){.cm-templates-heading__title,.cm-templates-heading__title span{font-size:4vw !important}
+.cm-templates-heading__subtitle,.cm-templates-heading__subtitle span{font-size:2vw !important}
+}
